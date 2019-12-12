@@ -31,8 +31,8 @@
 ;;; We want to delay in chunks of 1/100ms, so -- with 16MHz CPU
 ;;; frequency -- we need to burn 160000 clock ticks times the value of r24.
 	
-	.section .text
-	.global delay_cs
+	;.section .text
+	;.global delay_cs
 delay_cs:
 
 	push r0
